@@ -1,0 +1,13 @@
+EXPLAINATION OF SOFTWARE DESIGN PATTERNS
+========================================
+
+
+- FACTORY METHOD:
+
+The Objects factory. Allows objects to be created without specifying their exact class. This pattern is especially useful for providing flexibility and reuse in code by allowing subclasses to decide which classes to instantiate.
+
+Key Concepts
+
+Creator and Product: In this pattern, two main concepts are defined: the creator, which is responsible for creating the object,and the product, which represents the objects that will be created. The creator has an abstract method (the factory method) that subclasses must implement to return concrete instances of the product12.
+
+Abstract Method: The factory method is defined in an abstract class and is overridden by concrete subclasses. This allows the creator to not need to know the details of the specific classes of the products it is creating
