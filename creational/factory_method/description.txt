@@ -1,0 +1,1 @@
+This is an example strucutre of the Factory Method, using a simple notification system. 
