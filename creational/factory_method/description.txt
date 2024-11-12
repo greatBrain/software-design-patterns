@@ -1,1 +1,3 @@
-This is an example the Factory Method design pattern, using a simple and generic Person factory. 
+This is an example the Factory Method design pattern, using a simple and generic Person factory.
+
+Small project for showing the real world use of this. A 'notification' system. 
