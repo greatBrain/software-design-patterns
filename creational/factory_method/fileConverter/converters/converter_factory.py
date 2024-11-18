@@ -14,11 +14,11 @@ class ConverterFactory:
           # Pdf converter: docx files TO pdf format
 
           instances_map = {
-             "csv":Csv_Converter,
-             "json":Json_Converter,
-             "jpg":Image_Converter,
-             "png":Image_Converter,             
-             "docx":Pdf_Converter
+             ".csv":Csv_Converter,
+             ".json":Json_Converter,
+             ".jpg":Image_Converter,
+             ".png":Image_Converter,             
+             ".docx":Pdf_Converter
           }
 
           converter_instance = instances_map.get(file_type.lower())

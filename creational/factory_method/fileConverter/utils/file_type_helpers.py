@@ -1,28 +1,33 @@
 from pathlib import Path
+import shutil
 import click
 
+# We get the file as a command line argument and its path and extension.
+@click.command()
+@click.argument('file', type=click.Path(exists=True))
+def get_file(file)->tuple:          
+    file_abs_path = Path(file).resolve()
 
-class Helper:
-      def __init__(self):          
-         self.file_abs_path = ''
-
-      # Get file from terminal argument
-      @click.command()
-      @click.argument('file', type=click.Path(exists=True))
-      def get_file(self, file)->str:          
-          self.file_abs_path = Path(file).resolve()
+    if not file_abs_path:
+       raise ValueError("File not found")
+    
+    file_path_and_extension = (file_abs_path.parent, Path(file_abs_path).suffix)
+    return file_path_and_extension
 
 
-      # Get file type by extension
-      def get_file_type(self)->str:                    
-          file_extension = ''
+def dir_created(file_type:str='')->bool:
+    new_dir_name = str(file_type)
+    new_dir = Path(new_dir_name)
 
-          if not self.file_abs_path:
-             print("No file found.")
-        
-          file_extension = Path.suffix(self.file_abs_path)
-          print(file_extension)    
+    try:
+       new_dir.mkdir(parents=True, exists_ok=True)
+       return True 
+    except:
+       raise Exception("Directory could not be created")
 
-if __name__ == "__main__":
-   helpers = Helper()
-   helpers.get_file()
+
+def save(old_path:str='', new_path:str='')->bool:
+    
+    if dir_created():
+       pass
+
