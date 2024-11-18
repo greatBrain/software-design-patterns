@@ -1,7 +1,7 @@
 from abc import ABCMeta, ABC, abstractstaticmethod
 
 # Factory base class 
-class IConverter(metaclass:ABCMeta):      
+class IConverter(metaclass=ABCMeta):      
 
       @abstractstaticmethod
       def convert(file_type:str):
