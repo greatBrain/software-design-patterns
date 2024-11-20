@@ -1,12 +1,9 @@
 from pathlib import Path
 import shutil
-import click
 
-# We get the file as a command line argument and its path and extension.
-@click.command()
-@click.argument('file', type=click.Path(exists=True))
-def get_file(file)->tuple:          
-    file_abs_path = Path(file).resolve()
+
+def get_file_name_and_extension(_file)->tuple:          
+    file_abs_path = Path(_file).resolve()
 
     if not file_abs_path:
        raise ValueError("File not found")
@@ -26,8 +23,11 @@ def dir_created(file_type:str='')->bool:
        raise Exception("Directory could not be created")
 
 
-def save(old_path:str='', new_path:str='')->bool:
+def save(src_path:str='', dst_path:str='')->bool:
     
-    if dir_created():
-       pass
+    if not dir_created():
+       return False    
+    else:
+       shutil.move(src_path, dst_path)
+       return True
 
