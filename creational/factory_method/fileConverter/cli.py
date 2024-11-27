@@ -13,11 +13,13 @@ def run(file, convert)->None:
             file_abs_path = Path(file).resolve()
 
             if not file_abs_path:
-               raise ValueError("File not found")         
+               raise ValueError("File not found. Try again.")    
+                 
             file_path_and_extension = (file_abs_path.parent, Path(file_abs_path).suffix.lstrip('.')) 
             ConverterFactory.create_converter(file_path_and_extension)
+         
+         _get_file()
 
-            
     except:
         raise ValueError("No file or convertion option found")
     

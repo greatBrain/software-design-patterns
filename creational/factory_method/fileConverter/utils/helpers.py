@@ -22,6 +22,3 @@ class Helper:
             return new_dir 
           except ValueError as e:
             raise ("Directory could not be created", e)
-
-
-     
