@@ -3,14 +3,15 @@ import csv
 import json
 
 # File validation:
-def file_exists(file_path:str)->bool:
-    if not file_path:
-       return False 
-    return True
+def file_exists(_file:str)->bool:
+    _file_path = Path(_file)    
+    return True if _file_path.is_file() else False       
 
 
-def get_file_ext(file_path:str)->str:
-    pass
+def get_file_type(_file:str)->str:
+    _file_path = Path(_file)
+    _file_type = _file_path.suffix.lstrip('.')
+    return _file_type
 
 
 # Converts csv file into a dict
