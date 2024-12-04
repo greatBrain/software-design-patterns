@@ -2,7 +2,7 @@ from abc import ABCMeta, abstractmethod
 
 class IConverter(metaclass=ABCMeta):
       
-      @staticmethod
       @abstractmethod
-      def convert(self, _file):
+      def convert(self, _file:str):
           """ To be implemented """
+          pass
