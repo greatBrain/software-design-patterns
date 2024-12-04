@@ -17,6 +17,7 @@ def get_file_type(_file:str)->str:
 # Converts csv file into a dict
 def csv_to_dict(file_path)->dict:
     data = {}
+    csv_headers = []
 
     with open(file_path) as csvf:
         csv_reader = csv.DictReader(csvf)

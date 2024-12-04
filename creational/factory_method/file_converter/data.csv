@@ -1,0 +1,31 @@
+LONGITUDE,JOB_AREA,JOB_TYPE,COMPANY_NAME,CURRENCY_SYMBOL,DATABASE_COLUMN_TYPE,JOB_TITLE,FULL_NAME
+-144.5144,Usability,Designer,Kris LLC,TL,geometry,Direct Solutions Planner,Kamren Reichel Sr.
+-0.6212,Group,Director,Glover, O'Kon and Champlin,CHF,date,Principal Group Planner,Gilbert Schowalter
+51.5737,Operations,Designer,Kerluke - Fay,ден,smallint,Product Branding Developer,Vida Rohan
+-163.5544,Functionality,Consultant,Monahan, Sawayn and Bahringer,Lek,float,Central Brand Executive,Katrine Johnston
+-106.9238,Identity,Producer,VonRueden, Weber and VonRueden,£,serial,Global Solutions Analyst,Rosalee Kerluke
+-19.4831,Infrastructure,Technician,Swaniawski and Sons,$U,decimal,Investor Infrastructure Engineer,Heber Jones
+-98.0252,Usability,Developer,Trantow - Dicki,£,text,District Accountability Designer,Warren Kutch
+170.1725,Usability,Analyst,Hahn LLC,Q,float,Global Tactics Manager,Tod Schroeder DVM
+-28.2255,Response,Manager,Effertz LLC,J$,point,Chief Assurance Assistant,Anya Effertz
+-76.2936,Web,Associate,Schowalter - Jakubowski,TT$,binary,Customer Group Planner,Jerry Bednar DVM
+16.3126,Intranet,Technician,Schuster Group,£,int,Forward Usability Planner,Cydney Baumbach IV
+-4.9458,Communications,Administrator,Will LLC,$,boolean,Forward Metrics Engineer,Emmy Bartell
+147.1966,Tactics,Planner,Beier Inc,TT$,text,Future Configuration Planner,Norma Rolfson
+113.9342,Applications,Designer,Stanton - Haag,ман,float,Direct Brand Producer,Flo Parisian
+-127.8855,Metrics,Assistant,Swift Group,Дин.,float,National Tactics Specialist,Garnet Schroeder
+93.0263,Markets,Assistant,Toy - McDermott,$,mediumint,Investor Factors Representative,Sherwood Reinger
+-177.4897,Paradigm,Strategist,Herzog, Mohr and Herman,TT$,smallint,International Intranet Analyst,Lyda Larson
+-40.6160,Assurance,Producer,Smith - Sporer,$,boolean,Customer Directives Supervisor,Ian Tromp
+55.6273,Factors,Specialist,Koch - Welch,₮,timestamp,Product Division Officer,Elenora Robel
+101.6796,Paradigm,Liaison,Price - Treutel,RM,boolean,Central Mobility Director,Nolan Hilll I
+-91.9226,Brand,Representative,Nader - Hudson,Gs,smallint,Direct Accounts Designer,Mr. Eloisa Crist
+64.3132,Communications,Agent,Schuppe - Nolan,$,binary,Internal Security Facilitator,Kennedi Rice
+-99.3107,Factors,Administrator,Fisher Group,R,serial,Internal Brand Developer,Dr. Raphaelle Koch
+-163.2365,Intranet,Officer,Walter, Metz and Wolff,лв,time,Legacy Program Facilitator,Price Smith
+-136.5481,Accounts,Executive,Hartmann Group,$,enum,Product Accounts Planner,Jevon Cronin
+-126.7244,Response,Planner,Stroman Inc,₨,datetime,Forward Quality Manager,Edmund Bauch
+6.8766,Security,Technician,Pfeffer and Sons,$,real,Human Creative Architect,Vern Ziemann
+-68.8235,Identity,Strategist,Satterfield - Effertz,$,bigint,Customer Integration Coordinator,Wayne Kris
+-121.8510,Accounts,Facilitator,Yost Group,₨,date,International Branding Facilitator,Milan Hills Jr.
+28.8293,Metrics,Consultant,Hauck Inc,лв,varchar,Product Usability Planner,Nadia Osinski

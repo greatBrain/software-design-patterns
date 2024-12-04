@@ -1,0 +1,72 @@
+
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Alice Johnson",
+      "age": 27,
+      "email": "alice.johnson@example.com",
+      "active": true
+    },
+    {
+      "id": 2,
+      "name": "Michael Smith",
+      "age": 34,
+      "email": "michael.smith@example.com",
+      "active": false
+    },
+    {
+      "id": 3,
+      "name": "Emma Davis",
+      "age": 22,
+      "email": "emma.davis@example.com",
+      "active": true
+    }
+  ],
+  "products": [
+    {
+      "id": 101,
+      "name": "Wireless Headphones",
+      "price": 59.99,
+      "stock": 25,
+      "category": "Electronics"
+    },
+    {
+      "id": 102,
+      "name": "Coffee Mug",
+      "price": 9.99,
+      "stock": 100,
+      "category": "Home & Kitchen"
+    },
+    {
+      "id": 103,
+      "name": "Running Shoes",
+      "price": 75.50,
+      "stock": 40,
+      "category": "Sports"
+    }
+  ],
+  "orders": [
+    {
+      "order_id": 1001,
+      "user_id": 1,
+      "product_id": 101,
+      "quantity": 1,
+      "status": "Completed"
+    },
+    {
+      "order_id": 1002,
+      "user_id": 3,
+      "product_id": 102,
+      "quantity": 2,
+      "status": "Pending"
+    },
+    {
+      "order_id": 1003,
+      "user_id": 2,
+      "product_id": 103,
+      "quantity": 1,
+      "status": "Shipped"
+    }
+  ]
+}

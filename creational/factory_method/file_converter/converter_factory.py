@@ -10,4 +10,4 @@ class Converter_Factory:
           }          
       
           converter_instance = instances.get(file_type)
-          return converter_instance
+          if not converter_instance is  None: return converter_instance
