@@ -1,7 +1,9 @@
 import csv
 import json
+import pandas as pd
 from Iconverter import IConverter
 import helpers
+
 
 class CSVConverter(IConverter):      
       '''converter method implementation. Converts to json format.'''
@@ -29,5 +31,16 @@ class CSVConverter(IConverter):
             
 class JSONConverter(IConverter):
       '''converter method implementation. Converts to csv format.'''
-      def convert(self, _file:str):
-          pass
+      def convert(self, json_file:str):        
+          csv_file = "converted.csv"  
+
+          try:
+             json_data = pd.read_json(json_file)
+             json_data.to_csv(csv_file, index=False)
+             helpers.save_file(csv_file, 'csv')
+                
+          except FileNotFoundError:
+                print("Error: The file {} was not found.".format(json_file))
+          
+          except Exception as e:
+                print("An unexpected error occurred: {}".format(e))

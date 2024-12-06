@@ -29,12 +29,11 @@ def get_directory(file_type:str) -> str:
     
     if not dir_path.exists():
        dir_path.mkdir(parents=True, exist_ok=True)
-       return dir_path
-    
+       return dir_path    
     return None
 
 
-def get_json_data(_file:str) -> json:
+def normalize_json_data(_file:str) -> json:
     
     # To normalize the  json file before convert to csv
     with open(_file, "r") as jf:

@@ -1,0 +1,53 @@
+[
+  {
+    "id": 1,
+    "name": "Alice",
+    "age": 28,
+    "email": "alice@example.com",
+    "preferences": {
+      "theme": "dark",
+      "notifications": true
+    },
+    "purchases": [
+      {
+        "item": "Laptop",
+        "price": 1200
+      },
+      {
+        "item": "Mouse",
+        "price": 25
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Bob",
+    "age": 35,
+    "email": "bob@example.com",
+    "preferences": {
+      "theme": "light",
+      "notifications": false
+    },
+    "purchases": [
+      {
+        "item": "Smartphone",
+        "price": 800
+      },
+      {
+        "item": "Headphones",
+        "price": 50
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Charlie",
+    "age": 22,
+    "email": "charlie@example.com",
+    "preferences": {
+      "theme": "dark",
+      "notifications": true
+    },
+    "purchases": []
+  }
+]
