@@ -2,3 +2,6 @@
 Builder is a creational design pattern that lets you construct complex objec
        │ ts step by step. The pattern allows you to produce different types and repre
        │ sentations of an object using the same construction code.
+
+
+We use to use analogies with no real practices (like pizza, carBuilder and so on.....) but i'm gonna go beyond. Let's explore in deeper real concepts and applications of this design pattern.
